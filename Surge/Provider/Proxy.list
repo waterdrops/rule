@@ -1,10 +1,49 @@
+.phncdn.com
+.phprcdn.com
+.pornhub.com
+.pornhubpremium.com
+.paypal.com
+.paypalobjects.com
+.magicsandbox.com
+.slack.com
+.slack-files.com
+.slack-imgs.com
+.slack-msgs.com
+.slack-edge.com
+.bbc.co
+.bbc.com
+.chocotv.com.tw
+.helpshift.com
+.hulu.com
 .gitlab.com
+.t.me
+.tx.me
+.tdesktop.com
+.telegra.ph
+.telegram.me
+.telegram.org
 .eksworkshop.com
 .dailymotion.com
 .elastic.co
-# > TestFlight
 testflight.apple.com
-# > Line
+netflix.com.edgesuite.net
+.netflix.com
+.netflix.com.edgesuite.net
+.netflix.net
+.netflixdnstest0.com
+.netflixdnstest1.com
+.netflixdnstest2.com
+.netflixdnstest3.com
+.netflixdnstest4.com
+.netflixdnstest5.com
+.netflixdnstest6.com
+.netflixdnstest7.com
+.netflixdnstest8.com
+.nflxext.com
+.nflximg.com
+.nflximg.net
+.nflxso.net
+.nflxvideo.net
 .lin.ee
 .line.me
 .line.naver.jp
@@ -12,18 +51,21 @@ testflight.apple.com
 .line-cdn.net
 .line-scdn.net
 .nhncorp.jp
-# > Riot Games
+.mytvsuper.com
+.tvb.com
+.hotmail.com
 .riotcdn.net
 .wr.pvp.net
 .riotgames.com
-# > Spark
 .api.amplitude.com
 .app.smartmailcloud.com
 .gate.hockeyapp.net
 .smartmailcloud.com
-# > Tesla
-# > Zooba
-# > Top blocked sites
+.fanatical.com
+.humblebundle.com
+.steamcommunity.com
+.steampowered.com
+.steamstatic.com
 .2o7.net
 .4everProxy.com
 .4shared.com
@@ -95,6 +137,7 @@ testflight.apple.com
 .bitcointalk.org
 .bitshare.com
 .bkrtx.com
+.blizzard.com
 .blog.com
 .blogcdn.com
 .blogger.com
@@ -226,7 +269,6 @@ testflight.apple.com
 .gstatic.com
 .gunsamerica.com
 .gvt0.com
-.gvt1.com
 .helpshift.com
 .hitun.io
 .hockeyapp.net
@@ -443,6 +485,7 @@ testflight.apple.com
 .talkonly.net
 .tapbots.com
 .tapbots.net
+.tdesktop.com
 .teamviewer.com
 .techcrunch.com
 .technorati.com
@@ -570,6 +613,8 @@ testflight.apple.com
 .wikimedia.org
 .wikipedia.com
 .wikipedia.org
+.windows.com
+.windows.net
 .wn.com
 .wordpress.com
 .workflow.is
@@ -610,7 +655,6 @@ testflight.apple.com
 .zaobao.com.sg
 .zeutch.com
 .zynamics.com
-# > Force some domains which are fucked by GFW while resolving DNS,or do not respect the system Proxy
 .1e100.net
 .2mdn.net
 .abc.xyz
@@ -619,6 +663,7 @@ testflight.apple.com
 .autodraw.com
 .bandwagonhost.com
 .blogblog.com
+.cdninstagram.com
 .chromeexperiments.com
 .creativelab5.com
 .crittercism.com
@@ -631,10 +676,12 @@ testflight.apple.com
 .gcr.io
 .gmail.com
 .gosetsuden.jp
+.gvt1.com
 .gwtproject.org
 .hackmd.io
 .heroku.com
 .html5rocks.com
+.instagram.com
 .keyhole.com
 .kobo.com
 .kobobooks.com
@@ -656,72 +703,4 @@ testflight.apple.com
 .waveprotocol.org
 .webmproject.org
 .webrtc.org
-# > V2EX
 .v2ex.com
-# > Amazon
-IP-CIDR,13.32.0.0/16
-IP-CIDR,13.33.0.0/16
-IP-CIDR,13.35.0.0/17
-IP-CIDR,18.184.0.0/15
-IP-CIDR,18.194.0.0/15
-IP-CIDR,18.208.0.0/13
-IP-CIDR,18.232.0.0/14
-IP-CIDR,52.200.0.0/13
-IP-CIDR,52.58.0.0/15
-IP-CIDR,52.74.0.0/16
-IP-CIDR,52.77.0.0/16
-IP-CIDR,52.84.0.0/15
-IP-CIDR,54.156.0.0/14
-IP-CIDR,54.226.0.0/15
-IP-CIDR,54.230.156.0/22
-IP-CIDR,54.93.0.0/16
-# > Facebook
-IP-CIDR,103.4.96.0/22
-IP-CIDR,129.134.0.0/17
-IP-CIDR,157.240.0.0/17
-IP-CIDR,173.252.64.0/19
-IP-CIDR,173.252.96.0/19
-IP-CIDR,179.60.192.0/22
-IP-CIDR,185.60.216.0/22
-IP-CIDR,204.15.20.0/22
-IP-CIDR,31.13.24.0/21
-IP-CIDR,31.13.64.0/18
-IP-CIDR,45.64.40.0/22
-IP-CIDR,66.220.144.0/20
-IP-CIDR,69.171.224.0/19
-IP-CIDR,69.63.176.0/20
-IP-CIDR,74.119.76.0/22
-# > Google
-IP-CIDR,173.194.0.0/16
-IP-CIDR,74.125.0.0/16
-# > Kakao Talk
-IP-CIDR,1.201.0.0/24
-IP-CIDR,103.246.56.0/22
-IP-CIDR,103.27.148.0/22
-IP-CIDR,110.76.140.0/22
-IP-CIDR,113.61.104.0/22
-IP-CIDR,27.0.236.0/22
-# > LINE
-IP-CIDR,103.2.28.0/22
-IP-CIDR,119.235.224.0/21
-IP-CIDR,119.235.232.0/23
-IP-CIDR,119.235.235.0/24
-IP-CIDR,119.235.236.0/23
-IP-CIDR,125.6.146.0/24
-IP-CIDR,125.6.149.0/24
-IP-CIDR,125.6.190.0/24
-IP-CIDR,125.209.208.0/20
-IP-CIDR,203.104.103.0/24
-IP-CIDR,203.104.128.0/20
-IP-CIDR,203.174.66.64/26
-IP-CIDR,203.174.77.0/24
-# > Potato Chat
-IP-CIDR,13.251.24.157/24
-IP-CIDR,13.251.41.203/24
-IP-CIDR,17.252.156.147/24
-IP-CIDR,17.252.157.26/24
-# > SoftLayer
-IP-CIDR,74.86.0.0/16
-IP-CIDR,75.126.0.0/16
-IP-CIDR,174.37.0.0/16
-IP-CIDR,208.43.0.0/16
