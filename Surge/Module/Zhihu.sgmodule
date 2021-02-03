@@ -5,6 +5,7 @@
 [Rule]
 USER-AGENT,AVOS*,REJECT-TINYGIF
 URL-REGEX,https?://www.zhihu.com/api/v4/mcn/,REJECT
+URL-REGEX,https?://pic(1|2|3|4).zhimg.com/70/,REJECT
 URL-REGEX,https?://api.zhihu.com/(ab|adx|xen|club|fringe|zst|commercial|ad-style-service|market/popover|search/(top|tab|preset)|.*(guide|recommendations|extended|featured-comment-ad)),REJECT
 AND,((USER-AGENT,osee2*), (NOT,((DOMAIN-SUFFIX,zhihu.com))), (NOT,((DOMAIN-SUFFIX,zhimg.com)))),REJECT-TINYGIF
 
