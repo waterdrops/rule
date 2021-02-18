@@ -1,6 +1,6 @@
 #!name=WeChat
-#!desc=Remove the ads of WeChat publice account
-#!system=iOS
+#!desc=Remove the ads of WeChat pub account.
+#!system=ios
 
 
 [Script]
@@ -8,4 +8,3 @@ http-request ^https://mp\.weixin\.qq\.com/mp/getappmsgad script-path=https://raw
 
 [MITM]
 hostname = %APPEND% mp.weixin.qq.com
-
