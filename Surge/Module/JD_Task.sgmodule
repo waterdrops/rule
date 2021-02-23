@@ -62,4 +62,4 @@ crazyJoy任务 = type=cron,cronexp="10 7 * * *",wake-system=1,timeout=3600,scrip
 京喜财富岛兑换提醒 = type=cron,cronexp="30 6,12,22 * * *",wake-system=1,timeout=20,script-path=https://raw.githubusercontent.com/moposmall/Script/main/Me/jx_cfd_exchange.js
 
 [MITM]
-hostname = %APPEND% wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com, account.huami.com, wq.jd.com
+hostname = %APPEND% wq.jd.com, draw.jdfcloud.com, jdjoy.jd.com
