@@ -1,6 +1,7 @@
-let obj = JSON.parse($response.body);
-obj= {
+let body = JSON.parse($response.body);
+body = {
  "valid": true,
  "newlyAssociated": true
 };
-$done({body: JSON.stringify(obj)});
+body = JSON.stringify(body)
+$done({body})
