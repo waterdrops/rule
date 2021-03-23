@@ -3,7 +3,7 @@
 
 
 [Script]
-http-response  https?:\/\/user\.xiaozaoapp\.com\/app\/ceouser\/loginAuto script-path=https://raw.githubusercontent.com/waterdrops/rule/main/Surge/JS/CEO_weekly.js
+http-response  https?:\/\/user\.xiaozaoapp\.com\/app\/ceouser\/loginAuto requires-body=1,script-path=https://raw.githubusercontent.com/waterdrops/rule/main/Surge/JS/CEO_weekly.js
 
 [MITM]
 hostname = %APPEND% user.xiaozaoapp.com
