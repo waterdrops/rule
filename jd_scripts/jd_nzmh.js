@@ -46,7 +46,7 @@ if ($.isNode()) {
   for (let i = 0; i < cookiesArr.length; i++) {
     if (cookiesArr[i]) {
       cookie = cookiesArr[i];
-      $.UserName = decodeURIComponent(cookie.match(/pt_pin=(.+?);/) && cookie.match(/pt_pin=(.+?);/)[1])
+      $.UserName = decodeURIComponent(cookie.match(/pt_pin=([^; ]+)(?=;?)/) && cookie.match(/pt_pin=([^; ]+)(?=;?)/)[1])
       $.index = i + 1;
       $.isLogin = true;
       $.nickName = '';
@@ -65,7 +65,8 @@ if ($.isNode()) {
       }
       try {
         await jdMh('https://anmp.jd.com/babelDiy/Zeus/3gpAsWd6UBb1MWvr6PFYjNS4Nexk/index.html')
-        // await jdMh('https://anmp.jd.com/babelDiy/Zeus/gY7ymUmC8ZM74Zw3woiDDQU1naT/index.html?wxAppName=jd')
+        //3.24-3.26
+        if (new Date().getDate() < 27) await jdMh('https://anmp.jd.com/babelDiy/Zeus/4HVt431hqqWW8Nsb2t9jZKmJp4En/index.html');
         // await jdMh('https://anmp.jd.com/babelDiy/Zeus/3UGPT8RMBu4kL2YAYN98MgkcDhRq/index.html?wxAppName=jd')
         // await jdMh('https://anmp.jd.com/babelDiy/Zeus/yiNQjMxQvs3R3SdS4nwa2MFk1FE/index.html?wxAppName=jd')
       } catch (e) {
@@ -212,7 +213,7 @@ function taskUrl(function_id, body = '') {
       'Accept-Language': 'zh-cn',
       'Content-Type': 'application/json;charset=utf-8',
       'Origin': 'wq.jd.com',
-      'User-Agent': 'JD4iPhone/167490 (iPhone; iOS 14.2; Scale/3.00)',
+      "User-Agent": $.isNode() ? (process.env.JD_USER_AGENT ? process.env.JD_USER_AGENT : (require('./USER_AGENTS').USER_AGENT)) : ($.getdata('JDUA') ? $.getdata('JDUA') : "jdapp;iPhone;9.4.4;14.3;network/4g;Mozilla/5.0 (iPhone; CPU iPhone OS 14_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1"),
       'Referer': `https://anmp.jd.com/babelDiy/Zeus/xKACpgVjVJM7zPKbd5AGCij5yV9/index.html?wxAppName=jd`,
       'Cookie': cookie
     }
