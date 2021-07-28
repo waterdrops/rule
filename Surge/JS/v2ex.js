@@ -1,5 +1,5 @@
 const cookieName = 'V2EX'
-const cookieKey = 'chavy_cookie_v2ex'
+const cookieKey = 'rdy2go_cookie_v2ex'
 const cookieVal = $persistentStore.read(cookieKey)
 
 function sign() {
